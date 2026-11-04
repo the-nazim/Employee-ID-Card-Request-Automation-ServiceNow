@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_2262012_employ_2.employee.t9" name="x_2262012_employ_2.employee.t9">0442a356839c13103284c5a6feaad366</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-04 11:53:59</sys_created_on>
+        <sys_id>4042a356839c13103284c5a6feaad369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0442a356839c13103284c5a6feaad366</sys_name>
+        <sys_package display_value="Employee ID Card Request Automation" source="x_2262012_employ_2">77326356839c13103284c5a6feaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee ID Card Request Automation">77326356839c13103284c5a6feaad3ff</sys_scope>
+        <sys_update_name>sys_embedded_help_role_4042a356839c13103284c5a6feaad369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-04 11:53:59</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
