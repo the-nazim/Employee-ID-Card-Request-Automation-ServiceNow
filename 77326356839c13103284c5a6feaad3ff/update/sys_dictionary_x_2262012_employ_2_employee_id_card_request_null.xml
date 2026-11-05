@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <attributes>enforce_dot_walk_cross_scope_access=true</attributes>
-        <audit>false</audit>
+        <audit>true</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
@@ -59,7 +59,7 @@
         <sys_scope display_value="Employee ID Card Request Automation">77326356839c13103284c5a6feaad3ff</sys_scope>
         <sys_update_name>sys_dictionary_x_2262012_employ_2_employee_id_card_request_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-11-04 12:04:59</sys_updated_on>
+        <sys_updated_on>2026-11-05 11:02:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

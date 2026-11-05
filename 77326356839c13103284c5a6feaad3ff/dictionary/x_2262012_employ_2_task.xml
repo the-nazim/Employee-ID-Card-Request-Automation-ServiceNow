@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="c2fb04be8310d3103284c5a6feaad3e4" extends="x_2262012_employ_2_employee_id_card_request" label="task" max_length="40" name="x_2262012_employ_2_task" type="collection">
+        <element choice="1" label="Priority State" max_length="40" name="priority_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Closed Complete" sequence="2" value="closed_complete"/>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+            </choice>
+        </element>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="0" value="high"/>
+                <element inactive_on_update="false" label="Low" sequence="1" value="low"/>
+            </choice>
+        </element>
+        <element label="Parent Request" max_length="32" name="parent_request" reference="x_2262012_employ_2_employee_id_card_request" type="reference"/>
+        <index name="index">
+            <element name="parent_request"/>
+        </index>
+    </element>
+</database>

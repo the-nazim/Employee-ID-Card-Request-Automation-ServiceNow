@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="f334af1a839c13103284c5a6feaad3ea" label="Employee ID Card Request" max_length="40" name="x_2262012_employ_2_employee_id_card_request" type="collection">
+    <element attributes="enforce_dot_walk_cross_scope_access=true" audit="true" db_object_id="f334af1a839c13103284c5a6feaad3ea" label="Employee ID Card Request" max_length="40" name="x_2262012_employ_2_employee_id_card_request" type="collection">
         <element label="Employee ID" max_length="40" name="employee_id" type="string"/>
         <element label="Reason for Request" max_length="400" name="reason_for_request" type="string"/>
         <element choice="1" label="ID Card Type" max_length="40" name="id_card_type" type="choice">
@@ -10,10 +10,10 @@
         </element>
         <element choice="1" label="Department" max_length="40" name="department" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Finance" sequence="0" value="finance"/>
-                <element inactive_on_update="false" label="Technician" sequence="2" value="technician"/>
                 <element inactive_on_update="false" label="Developer" sequence="1" value="developer"/>
                 <element inactive_on_update="false" label="Accounts" sequence="3" value="accounts"/>
+                <element inactive_on_update="false" label="Technician" sequence="2" value="technician"/>
+                <element inactive_on_update="false" label="Finance" sequence="0" value="finance"/>
             </choice>
         </element>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
@@ -21,9 +21,10 @@
         <element label="Requested Date" max_length="40" name="requested_date" type="glide_date_time"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
-                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
                 <element inactive_on_update="false" label="Submitted" sequence="0" value="submitted"/>
+                <element inactive_on_update="false" label="Rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="Issued" sequence="3" value="issued"/>
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>

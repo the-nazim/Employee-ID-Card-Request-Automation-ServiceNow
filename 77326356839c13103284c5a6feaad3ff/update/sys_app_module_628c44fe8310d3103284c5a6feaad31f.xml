@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="task">e68c44fe8310d3103284c5a6feaad319</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>tasks</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_2262012_employ_2_task</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_2262012_employ_2.task_user</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-05 09:37:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>628c44fe8310d3103284c5a6feaad31f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Employee ID Card Request Automation" source="x_2262012_employ_2">77326356839c13103284c5a6feaad3ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Employee ID Card Request Automation">77326356839c13103284c5a6feaad3ff</sys_scope>
+        <sys_update_name>sys_app_module_628c44fe8310d3103284c5a6feaad31f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-05 09:37:14</sys_updated_on>
+        <timeline_page/>
+        <title>tasks</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
